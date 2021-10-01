@@ -9,9 +9,9 @@ class Myfood extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(1.0),
+      padding: const EdgeInsets.all(2.0),
       child:ClipRRect(
-        borderRadius: BorderRadius.circular(6),
+        borderRadius: BorderRadius.circular(7),
         child: Container(
           padding: EdgeInsets.all(12),
           color: outercolor,
