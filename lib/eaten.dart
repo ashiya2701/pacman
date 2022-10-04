@@ -13,7 +13,7 @@ class Myfood extends StatelessWidget {
       child:ClipRRect(
         borderRadius: BorderRadius.circular(7),
         child: Container(
-          padding: EdgeInsets.all(12),
+          padding: EdgeInsets.all(10),
           color: outercolor,
           child: Center(child: ClipRRect(
             borderRadius: BorderRadius.circular(6),
