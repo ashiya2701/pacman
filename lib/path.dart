@@ -19,8 +19,9 @@ class Mypath extends StatelessWidget {
             borderRadius: BorderRadius.circular(6),
             child: Container(
               color: innercolor,
-              child: Center(child: child),
-
+              child: Center(
+                 child: child,
+               ),
             ),
           ),
           ),
